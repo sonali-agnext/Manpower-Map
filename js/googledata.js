@@ -256,7 +256,7 @@ function renderChart(){
     (async () => {
 
         const topology = await fetch(
-            'http://code.highcharts.com/mapdata/countries/in/custom/in-all-disputed.topo.json'
+            'https://code.highcharts.com/mapdata/countries/in/custom/in-all-disputed.topo.json'
         ).then(response => response.json());
 
         // Initialize the chart
@@ -470,7 +470,7 @@ function renderChart(){
                     },
                     format: '{point.name}'
                 },
-                name: '<img src="http://www.text100.com/wp-content/uploads/2013/03/icon-plug-small.png" >',
+                name: ' ',
                 states: {
                     hover: {
                         color: '#64AE60'
